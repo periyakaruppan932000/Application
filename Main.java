@@ -27,18 +27,18 @@ public class Main {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//boolean flag=false;
+		
 		Guest g=new Guest();
 		User u=new User();
 		Admin a=new Admin();
-		//g.viewMenu();
+		
 		Scanner scan=new Scanner(System.in);
 		System.out.println("username:");
 		String uname=scan.nextLine();
 		System.out.println("Password:");
 		String pass=scan.nextLine();
 		Map<String,String> login=LogInCredentials();
-		//System.out.println(login);
+		
 		
 		Set<String> keys=logincr.keySet();////////get the key values from LogInCredentials and stores in keys
 		Iterator<String> it=keys.iterator();///////iterate over keys(keySet)
