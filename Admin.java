@@ -47,12 +47,6 @@ public class Admin {
 			System.out.println("price");
 			double p=scan.nextDouble();
 			
-			/*food[i]=scan.nextLine();
-			String a=food[i];
-			System.out.println(food[i]);
-			String[] b=new String[2];
-			b=a.split("-");
-			System.out.println(b[1]);*/
 			menu.put(f, p);
 			
 		}
@@ -61,21 +55,6 @@ public class Admin {
 		
 		
 	}
-	/*public void addMenu(String[] food)
-	{
-		
-		//System.out.println(food);
-		
-		for(int i=0;i<food.length;i++)
-		{
-			String a=food[i];
-			System.out.println(food[i]);
-			String[] b=new String[2];
-			b=a.split("-");
-			
-			System.out.println(b);
-			//menu.put(b[0], b[1]);
-		}*/
 	
 
 }
